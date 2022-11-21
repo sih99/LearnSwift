@@ -132,7 +132,7 @@ class COVID19ViewController: UIViewController {
     }
 
     @IBAction func homeButtonTapped(_ sender: Any) {
-        print("sungin Check !!")
+
         GeneralHelper.shared.appDelegate.createHomeViewController()
     }
 
