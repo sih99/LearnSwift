@@ -3,19 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0F67E83829268AD300970499 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F67E83729268AD300970499 /* AppDelegate.swift */; };
-		0F67E83A29268AD300970499 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F67E83929268AD300970499 /* SceneDelegate.swift */; };
-		0F67E83C29268AD300970499 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F67E83B29268AD300970499 /* ViewController.swift */; };
-		0F67E83F29268AD300970499 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F67E83D29268AD300970499 /* Main.storyboard */; };
 		0F67E84129268AD500970499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F67E84029268AD500970499 /* Assets.xcassets */; };
 		0F67E84429268AD500970499 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F67E84229268AD500970499 /* LaunchScreen.storyboard */; };
 		0F67E84F29268AD500970499 /* LearnSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F67E84E29268AD500970499 /* LearnSwiftTests.swift */; };
 		0F67E85929268AD500970499 /* LearnSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F67E85829268AD500970499 /* LearnSwiftUITests.swift */; };
 		0F67E85B29268AD500970499 /* LearnSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F67E85A29268AD500970499 /* LearnSwiftUITestsLaunchTests.swift */; };
+		0F67E86B29268E9A00970499 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F67E86A29268E9A00970499 /* Splash.storyboard */; };
+		0F67E86D29268ECB00970499 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F67E86C29268ECB00970499 /* SplashViewController.swift */; };
+		0F67E87029268F5D00970499 /* COVID19.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F67E86F29268F5D00970499 /* COVID19.storyboard */; };
+		0FAC992B2929CF4B00C5AC07 /* SpotifyLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FAC992A2929CF4B00C5AC07 /* SpotifyLogin.storyboard */; };
+		0FAC992D2929D01600C5AC07 /* SpotifyLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAC992C2929D01600C5AC07 /* SpotifyLoginViewController.swift */; };
+		0FAC992F2929E8D000C5AC07 /* EnterEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAC992E2929E8D000C5AC07 /* EnterEmailViewController.swift */; };
+		0FAC99312929F67500C5AC07 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAC99302929F67500C5AC07 /* MainViewController.swift */; };
+		0FAC99332929FBC300C5AC07 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0FAC99322929FBC300C5AC07 /* GoogleService-Info.plist */; };
+		0FB0468329288B71000A5992 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB0468229288B71000A5992 /* Home.storyboard */; };
+		0FB0468729288EB8000A5992 /* GeneralHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB0468629288EB8000A5992 /* GeneralHelper.swift */; };
+		0FB046892928943B000A5992 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB046882928943B000A5992 /* TabBarViewController.swift */; };
+		0FB0468C29289CD9000A5992 /* FastCampusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB0468B29289CD9000A5992 /* FastCampusViewController.swift */; };
+		0FB0468E29289E52000A5992 /* COVID19ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB0468D29289E52000A5992 /* COVID19ViewController.swift */; };
+		0FEFBD452928A54B0043D02B /* CovidDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEFBD442928A54B0043D02B /* CovidDetailViewController.swift */; };
+		0FEFBD482928C4110043D02B /* CityCovidOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEFBD472928C4110043D02B /* CityCovidOverview.swift */; };
+		E3537AA177F5EA3E7CE7EF0E /* Pods_LearnSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65573B7BEC9416F58EDC5D2B /* Pods_LearnSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +51,6 @@
 /* Begin PBXFileReference section */
 		0F67E83429268AD300970499 /* LearnSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F67E83729268AD300970499 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0F67E83929268AD300970499 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0F67E83B29268AD300970499 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0F67E83E29268AD300970499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F67E84029268AD500970499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F67E84329268AD500970499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F67E84529268AD500970499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +59,24 @@
 		0F67E85429268AD500970499 /* LearnSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F67E85829268AD500970499 /* LearnSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSwiftUITests.swift; sourceTree = "<group>"; };
 		0F67E85A29268AD500970499 /* LearnSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0F67E86A29268E9A00970499 /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		0F67E86C29268ECB00970499 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		0F67E86F29268F5D00970499 /* COVID19.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = COVID19.storyboard; sourceTree = "<group>"; };
+		0FAC992A2929CF4B00C5AC07 /* SpotifyLogin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SpotifyLogin.storyboard; sourceTree = "<group>"; };
+		0FAC992C2929D01600C5AC07 /* SpotifyLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyLoginViewController.swift; sourceTree = "<group>"; };
+		0FAC992E2929E8D000C5AC07 /* EnterEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterEmailViewController.swift; sourceTree = "<group>"; };
+		0FAC99302929F67500C5AC07 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0FAC99322929FBC300C5AC07 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0FB0468229288B71000A5992 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		0FB0468629288EB8000A5992 /* GeneralHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralHelper.swift; sourceTree = "<group>"; };
+		0FB046882928943B000A5992 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		0FB0468B29289CD9000A5992 /* FastCampusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastCampusViewController.swift; sourceTree = "<group>"; };
+		0FB0468D29289E52000A5992 /* COVID19ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COVID19ViewController.swift; sourceTree = "<group>"; };
+		0FEFBD442928A54B0043D02B /* CovidDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidDetailViewController.swift; sourceTree = "<group>"; };
+		0FEFBD472928C4110043D02B /* CityCovidOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCovidOverview.swift; sourceTree = "<group>"; };
+		65573B7BEC9416F58EDC5D2B /* Pods_LearnSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		958640292A05C2C29CA98FB4 /* Pods-LearnSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnSwift.release.xcconfig"; path = "Target Support Files/Pods-LearnSwift/Pods-LearnSwift.release.xcconfig"; sourceTree = "<group>"; };
+		DEFDE8DE28E3BAFC21AC5E20 /* Pods-LearnSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnSwift.debug.xcconfig"; path = "Target Support Files/Pods-LearnSwift/Pods-LearnSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3537AA177F5EA3E7CE7EF0E /* Pods_LearnSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +112,8 @@
 				0F67E84D29268AD500970499 /* LearnSwiftTests */,
 				0F67E85729268AD500970499 /* LearnSwiftUITests */,
 				0F67E83529268AD300970499 /* Products */,
+				FCCC4C96A5CC27240AD87311 /* Pods */,
+				A5EC277C0982F8B0CB817EDA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +130,13 @@
 		0F67E83629268AD300970499 /* LearnSwift */ = {
 			isa = PBXGroup;
 			children = (
+				0FEFBD462928A96D0043D02B /* Model */,
+				0F67E87129268F9E00970499 /* Helpers */,
+				0F67E86829268E4E00970499 /* UI */,
+				0F67E86729268DC500970499 /* Supporting Files */,
 				0F67E83729268AD300970499 /* AppDelegate.swift */,
-				0F67E83929268AD300970499 /* SceneDelegate.swift */,
-				0F67E83B29268AD300970499 /* ViewController.swift */,
-				0F67E83D29268AD300970499 /* Main.storyboard */,
 				0F67E84029268AD500970499 /* Assets.xcassets */,
 				0F67E84229268AD500970499 /* LaunchScreen.storyboard */,
-				0F67E84529268AD500970499 /* Info.plist */,
 			);
 			path = LearnSwift;
 			sourceTree = "<group>";
@@ -127,6 +158,99 @@
 			path = LearnSwiftUITests;
 			sourceTree = "<group>";
 		};
+		0F67E86729268DC500970499 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FAC99322929FBC300C5AC07 /* GoogleService-Info.plist */,
+				0F67E84529268AD500970499 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F67E86829268E4E00970499 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0FAC99292929CF3800C5AC07 /* SpotifyLogin */,
+				0FB0468129288B5F000A5992 /* Home */,
+				0F67E86E29268F4600970499 /* COVID19 */,
+				0F67E86929268E8D00970499 /* Splash */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0F67E86929268E8D00970499 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				0F67E86A29268E9A00970499 /* Splash.storyboard */,
+				0F67E86C29268ECB00970499 /* SplashViewController.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		0F67E86E29268F4600970499 /* COVID19 */ = {
+			isa = PBXGroup;
+			children = (
+				0F67E86F29268F5D00970499 /* COVID19.storyboard */,
+				0FB0468D29289E52000A5992 /* COVID19ViewController.swift */,
+				0FEFBD442928A54B0043D02B /* CovidDetailViewController.swift */,
+			);
+			path = COVID19;
+			sourceTree = "<group>";
+		};
+		0F67E87129268F9E00970499 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0FB0468629288EB8000A5992 /* GeneralHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0FAC99292929CF3800C5AC07 /* SpotifyLogin */ = {
+			isa = PBXGroup;
+			children = (
+				0FAC992A2929CF4B00C5AC07 /* SpotifyLogin.storyboard */,
+				0FAC992C2929D01600C5AC07 /* SpotifyLoginViewController.swift */,
+				0FAC992E2929E8D000C5AC07 /* EnterEmailViewController.swift */,
+				0FAC99302929F67500C5AC07 /* MainViewController.swift */,
+			);
+			path = SpotifyLogin;
+			sourceTree = "<group>";
+		};
+		0FB0468129288B5F000A5992 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0FB0468229288B71000A5992 /* Home.storyboard */,
+				0FB0468B29289CD9000A5992 /* FastCampusViewController.swift */,
+				0FB046882928943B000A5992 /* TabBarViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0FEFBD462928A96D0043D02B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0FEFBD472928C4110043D02B /* CityCovidOverview.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A5EC277C0982F8B0CB817EDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65573B7BEC9416F58EDC5D2B /* Pods_LearnSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCCC4C96A5CC27240AD87311 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEFDE8DE28E3BAFC21AC5E20 /* Pods-LearnSwift.debug.xcconfig */,
+				958640292A05C2C29CA98FB4 /* Pods-LearnSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F67E85E29268AD500970499 /* Build configuration list for PBXNativeTarget "LearnSwift" */;
 			buildPhases = (
+				1D3C32747F1AA784826D1A47 /* [CP] Check Pods Manifest.lock */,
 				0F67E83029268AD300970499 /* Sources */,
 				0F67E83129268AD300970499 /* Frameworks */,
 				0F67E83229268AD300970499 /* Resources */,
+				120C03702F1C2304CC556AD8 /* [CP] Embed Pods Frameworks */,
+				6E042B312919682F5587F0F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,7 +334,7 @@
 				};
 			};
 			buildConfigurationList = 0F67E82F29268AD300970499 /* Build configuration list for PBXProject "LearnSwift" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -231,9 +358,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F67E87029268F5D00970499 /* COVID19.storyboard in Resources */,
+				0FB0468329288B71000A5992 /* Home.storyboard in Resources */,
 				0F67E84429268AD500970499 /* LaunchScreen.storyboard in Resources */,
 				0F67E84129268AD500970499 /* Assets.xcassets in Resources */,
-				0F67E83F29268AD300970499 /* Main.storyboard in Resources */,
+				0F67E86B29268E9A00970499 /* Splash.storyboard in Resources */,
+				0FAC992B2929CF4B00C5AC07 /* SpotifyLogin.storyboard in Resources */,
+				0FAC99332929FBC300C5AC07 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +384,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		120C03702F1C2304CC556AD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearnSwift/Pods-LearnSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearnSwift/Pods-LearnSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LearnSwift/Pods-LearnSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D3C32747F1AA784826D1A47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E042B312919682F5587F0F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearnSwift/Pods-LearnSwift-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearnSwift/Pods-LearnSwift-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LearnSwift/Pods-LearnSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0F67E83029268AD300970499 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F67E83C29268AD300970499 /* ViewController.swift in Sources */,
+				0FB0468729288EB8000A5992 /* GeneralHelper.swift in Sources */,
+				0FAC99312929F67500C5AC07 /* MainViewController.swift in Sources */,
+				0FAC992D2929D01600C5AC07 /* SpotifyLoginViewController.swift in Sources */,
 				0F67E83829268AD300970499 /* AppDelegate.swift in Sources */,
-				0F67E83A29268AD300970499 /* SceneDelegate.swift in Sources */,
+				0FB0468E29289E52000A5992 /* COVID19ViewController.swift in Sources */,
+				0FEFBD452928A54B0043D02B /* CovidDetailViewController.swift in Sources */,
+				0F67E86D29268ECB00970499 /* SplashViewController.swift in Sources */,
+				0FB0468C29289CD9000A5992 /* FastCampusViewController.swift in Sources */,
+				0FB046892928943B000A5992 /* TabBarViewController.swift in Sources */,
+				0FAC992F2929E8D000C5AC07 /* EnterEmailViewController.swift in Sources */,
+				0FEFBD482928C4110043D02B /* CityCovidOverview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +495,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0F67E83D29268AD300970499 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0F67E83E29268AD300970499 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0F67E84229268AD500970499 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +622,7 @@
 		};
 		0F67E85F29268AD500970499 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEFDE8DE28E3BAFC21AC5E20 /* Pods-LearnSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,7 +633,7 @@
 				INFOPLIST_FILE = LearnSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Splash;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -460,6 +651,7 @@
 		};
 		0F67E86029268AD500970499 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958640292A05C2C29CA98FB4 /* Pods-LearnSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -470,7 +662,7 @@
 				INFOPLIST_FILE = LearnSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Splash;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
