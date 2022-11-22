@@ -102,6 +102,15 @@
                                     <action selector="SpotifyLogin:" destination="2wh-xt-043" eventType="touchUpInside" id="yNb-r2-Jom"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L6q-Jg-2qr">
+                                <rect key="frame" x="114" y="189" width="166" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="신용카드 추천 리스트"/>
+                                <connections>
+                                    <action selector="CreditCardList:" destination="2wh-xt-043" eventType="touchUpInside" id="SS4-IU-NaM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Gg9-Fm-3Ah"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>

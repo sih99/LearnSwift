@@ -120,6 +120,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 
         window?.makeKeyAndVisible()
     }
+    
+    func createCreditCardListViewController() {
+        self.dismissPresentViewController()
+        let targetSB = UIStoryboard(name: "CreditCardList", bundle: nil)
+        let targetVC = targetSB.instantiateViewController(withIdentifier: "CardListViewController")
+
+        targetVC.modalPresentationStyle = .fullScreen
+
+
+        let nav = UINavigationController(rootViewController: targetVC)
+//        nav.isNavigationBarHidden = true
+        window?.rootViewController = nav
+
+        window?.makeKeyAndVisible()
+    }
+    
+    
 
 }
 

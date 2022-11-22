@@ -23,6 +23,9 @@ class FastCampusViewController: UIViewController {
     @IBAction func SpotifyLogin(_ sender: Any) {
         GeneralHelper.shared.appDelegate.createSpotifyLoginViewController()
     }
-    
 
+
+    @IBAction func CreditCardList(_ sender: Any) {
+        GeneralHelper.shared.appDelegate.createCreditCardListViewController()
+    }
 }
