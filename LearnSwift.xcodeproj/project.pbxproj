@@ -19,6 +19,7 @@
 		0F67E86B29268E9A00970499 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F67E86A29268E9A00970499 /* Splash.storyboard */; };
 		0F67E86D29268ECB00970499 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F67E86C29268ECB00970499 /* SplashViewController.swift */; };
 		0F67E87029268F5D00970499 /* COVID19.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F67E86F29268F5D00970499 /* COVID19.storyboard */; };
+		0F8B5658292D349B00BA7B0A /* CreditCardDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8B5657292D349B00BA7B0A /* CreditCardDummy.swift */; };
 		0FAC992B2929CF4B00C5AC07 /* SpotifyLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FAC992A2929CF4B00C5AC07 /* SpotifyLogin.storyboard */; };
 		0FAC992D2929D01600C5AC07 /* SpotifyLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAC992C2929D01600C5AC07 /* SpotifyLoginViewController.swift */; };
 		0FAC992F2929E8D000C5AC07 /* EnterEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAC992E2929E8D000C5AC07 /* EnterEmailViewController.swift */; };
@@ -34,7 +35,7 @@
 		0FFC2F64292BC77600FC32FD /* CardListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFC2F62292BC77600FC32FD /* CardListCell.swift */; };
 		0FFC2F65292BC77600FC32FD /* CardListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FFC2F63292BC77600FC32FD /* CardListCell.xib */; };
 		0FFC2F67292BD07200FC32FD /* CardDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFC2F66292BD07200FC32FD /* CardDetailViewController.swift */; };
-		16DBAA01ACB055592423A030 /* Pods_LearnSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2C6433EA773BA2CEF63A03 /* Pods_LearnSwift.framework */; };
+		CC2DFD4039BCA00C87187C7B /* Pods_LearnSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C82367F0775248BE148078 /* Pods_LearnSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03C82367F0775248BE148078 /* Pods_LearnSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F4796F9292BBD9B00FDEA04 /* CardListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewController.swift; sourceTree = "<group>"; };
 		0F4796FB292BBDF000FDEA04 /* CreditCardList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreditCardList.storyboard; sourceTree = "<group>"; };
 		0F4796FD292BBE5900FDEA04 /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 		0F67E86A29268E9A00970499 /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
 		0F67E86C29268ECB00970499 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		0F67E86F29268F5D00970499 /* COVID19.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = COVID19.storyboard; sourceTree = "<group>"; };
+		0F8B5657292D349B00BA7B0A /* CreditCardDummy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreditCardDummy.swift; path = "../../../../../Downloads/Part 3/Ch2_CreditCardList/CreditCardDummy.swift"; sourceTree = "<group>"; };
 		0FAC992A2929CF4B00C5AC07 /* SpotifyLogin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SpotifyLogin.storyboard; sourceTree = "<group>"; };
 		0FAC992C2929D01600C5AC07 /* SpotifyLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyLoginViewController.swift; sourceTree = "<group>"; };
 		0FAC992E2929E8D000C5AC07 /* EnterEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterEmailViewController.swift; sourceTree = "<group>"; };
@@ -87,9 +90,8 @@
 		0FFC2F63292BC77600FC32FD /* CardListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardListCell.xib; sourceTree = "<group>"; };
 		0FFC2F66292BD07200FC32FD /* CardDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailViewController.swift; sourceTree = "<group>"; };
 		0FFC2F6B292BD5FA00FC32FD /* money.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = money.json; sourceTree = "<group>"; };
-		406B207FF6FA996C9825CEFE /* Pods-LearnSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnSwift.debug.xcconfig"; path = "Target Support Files/Pods-LearnSwift/Pods-LearnSwift.debug.xcconfig"; sourceTree = "<group>"; };
-		8B2C6433EA773BA2CEF63A03 /* Pods_LearnSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED43D121675EB6922167DF66 /* Pods-LearnSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnSwift.release.xcconfig"; path = "Target Support Files/Pods-LearnSwift/Pods-LearnSwift.release.xcconfig"; sourceTree = "<group>"; };
+		44F68FC811ADC1D41FA668C7 /* Pods-LearnSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnSwift.release.xcconfig"; path = "Target Support Files/Pods-LearnSwift/Pods-LearnSwift.release.xcconfig"; sourceTree = "<group>"; };
+		C5E5712A7BBD00AB4B78A008 /* Pods-LearnSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnSwift.debug.xcconfig"; path = "Target Support Files/Pods-LearnSwift/Pods-LearnSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16DBAA01ACB055592423A030 /* Pods_LearnSwift.framework in Frameworks */,
+				CC2DFD4039BCA00C87187C7B /* Pods_LearnSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +127,7 @@
 				0F4796F9292BBD9B00FDEA04 /* CardListViewController.swift */,
 				0F4796FB292BBDF000FDEA04 /* CreditCardList.storyboard */,
 				0FFC2F66292BD07200FC32FD /* CardDetailViewController.swift */,
+				0F8B5657292D349B00BA7B0A /* CreditCardDummy.swift */,
 			);
 			path = CreditCardList;
 			sourceTree = "<group>";
@@ -137,7 +140,7 @@
 				0F67E85729268AD500970499 /* LearnSwiftUITests */,
 				0F67E83529268AD300970499 /* Products */,
 				FCCC4C96A5CC27240AD87311 /* Pods */,
-				C74132F6FA417E972AA85F5A /* Frameworks */,
+				6134F7F6408CB2FE1B7CB727 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -278,10 +281,10 @@
 			path = Animation;
 			sourceTree = "<group>";
 		};
-		C74132F6FA417E972AA85F5A /* Frameworks */ = {
+		6134F7F6408CB2FE1B7CB727 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8B2C6433EA773BA2CEF63A03 /* Pods_LearnSwift.framework */,
+				03C82367F0775248BE148078 /* Pods_LearnSwift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -289,8 +292,8 @@
 		FCCC4C96A5CC27240AD87311 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				406B207FF6FA996C9825CEFE /* Pods-LearnSwift.debug.xcconfig */,
-				ED43D121675EB6922167DF66 /* Pods-LearnSwift.release.xcconfig */,
+				C5E5712A7BBD00AB4B78A008 /* Pods-LearnSwift.debug.xcconfig */,
+				44F68FC811ADC1D41FA668C7 /* Pods-LearnSwift.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -302,12 +305,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F67E85E29268AD500970499 /* Build configuration list for PBXNativeTarget "LearnSwift" */;
 			buildPhases = (
-				CFD45087048BCA63E6CB56E7 /* [CP] Check Pods Manifest.lock */,
+				D834F0694912C865BC9206D3 /* [CP] Check Pods Manifest.lock */,
 				0F67E83029268AD300970499 /* Sources */,
 				0F67E83129268AD300970499 /* Frameworks */,
 				0F67E83229268AD300970499 /* Resources */,
-				8047105807883B140746E816 /* [CP] Embed Pods Frameworks */,
-				0C8FE64E3AB199F8ED0EC5B5 /* [CP] Copy Pods Resources */,
+				E80A6E3466E0F621DDE80967 /* [CP] Embed Pods Frameworks */,
+				68BB0698D9A137B3EFEFDC21 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -431,7 +434,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C8FE64E3AB199F8ED0EC5B5 /* [CP] Copy Pods Resources */ = {
+		68BB0698D9A137B3EFEFDC21 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -448,24 +451,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LearnSwift/Pods-LearnSwift-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8047105807883B140746E816 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LearnSwift/Pods-LearnSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LearnSwift/Pods-LearnSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LearnSwift/Pods-LearnSwift-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CFD45087048BCA63E6CB56E7 /* [CP] Check Pods Manifest.lock */ = {
+		D834F0694912C865BC9206D3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -487,6 +473,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E80A6E3466E0F621DDE80967 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearnSwift/Pods-LearnSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearnSwift/Pods-LearnSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LearnSwift/Pods-LearnSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -495,6 +498,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F4796FA292BBD9B00FDEA04 /* CardListViewController.swift in Sources */,
+				0F8B5658292D349B00BA7B0A /* CreditCardDummy.swift in Sources */,
 				0FB0468729288EB8000A5992 /* GeneralHelper.swift in Sources */,
 				0FAC99312929F67500C5AC07 /* MainViewController.swift in Sources */,
 				0FAC992D2929D01600C5AC07 /* SpotifyLoginViewController.swift in Sources */,
@@ -672,7 +676,7 @@
 		};
 		0F67E85F29268AD500970499 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 406B207FF6FA996C9825CEFE /* Pods-LearnSwift.debug.xcconfig */;
+			baseConfigurationReference = C5E5712A7BBD00AB4B78A008 /* Pods-LearnSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -701,7 +705,7 @@
 		};
 		0F67E86029268AD500970499 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED43D121675EB6922167DF66 /* Pods-LearnSwift.release.xcconfig */;
+			baseConfigurationReference = 44F68FC811ADC1D41FA668C7 /* Pods-LearnSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
